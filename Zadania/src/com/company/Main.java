@@ -1,43 +1,41 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        //Zadanie 1
-        long suma = 0;
-        for (int x = 1; x < 100000; x++) {
-            suma+= x;
+        System.out.println("Type number of exercise to run.");
+        System.out.println("1.Add all numbers from 1 to 1,000,000");
+        System.out.println("2.Is it possible to create triangle with given sides");
+        System.out.println("3.Find that numbers from 1 to 100 which meet the condition a*a+b*b=c*c");
+        System.out.println("4.x");
+        System.out.println("5.x");
+        System.out.println("6.Multiplication Table");
+
+        Scanner key = new Scanner(System.in);
+        int nmb = key.nextInt();
+
+        switch(nmb)
+        {
+            case 1:
+                ex1.main();
+                break;
+            case 2:
+                ex2.main();
+                break;
+            case 3:
+                ex3.main();
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                MTable.main();
+                break;
+            case 7:
+                break;
         }
-        System.out.println(suma);
-
-        //Zadanie 2
-        int a = 4;
-        int b = 6;
-        int c = 7;
-
-        if (a+b>c && a+c>b && b+c>a)
-            System.out.println("Da sie stworzyc trojkat");
-        else
-            System.out.println("Nie da sie stworzyc trojkata");
-
-        //Zadanie 3
-        for (int q = 1; q < 100; q++) {
-            for (int w = 1; w < 100; w++) {
-                for (int e = 1; e < 100; e++) {
-                    if ((q*q) + (w*w) == (e*e))
-                        //System.out.println("Dziala " + q*q + " + " + w*w + " = " + e*e);
-                        System.out.println("Te liczby to " + q + " i " + w + " i " + e);
-                }
-            }
-        }
-//        int q = 3;
-//        int w = 4;
-//          int e = 5;
-//        if (q*q + w*w == e*e)
-//            System.out.println("Dziala " + q + " i " + w);
-//        else
-//            System.out.println("Nie dziala");
-
-
     }
 }
