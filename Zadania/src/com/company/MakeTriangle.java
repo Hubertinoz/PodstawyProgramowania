@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class ex2 {
+public class MakeTriangle {
     public static void main() {
 
         Scanner key = new Scanner(System.in);

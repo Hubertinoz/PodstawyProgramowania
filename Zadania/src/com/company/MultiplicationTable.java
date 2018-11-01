@@ -1,6 +1,6 @@
 package com.company;
 
-public class MTable {
+public class MultiplicationTable {
     public static void main() {
 
         for (int x = 1; x <= 10; x++) {

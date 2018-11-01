@@ -1,6 +1,6 @@
 package com.company;
 
-public class ex1 {
+public class SumMilion {
 
     public static void main() {
         long suma = 0;

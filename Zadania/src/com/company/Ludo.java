@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Random;
 
-public class ex5 {
+public class Ludo {
     public static void main() {
 
         Random rnd = new Random();

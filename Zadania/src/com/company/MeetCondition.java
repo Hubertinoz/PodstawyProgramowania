@@ -1,6 +1,6 @@
 package com.company;
 
-public class ex3 {
+public class MeetCondition {
     public static void main() {
 
         for (int q = 1; q < 100; q++) {
