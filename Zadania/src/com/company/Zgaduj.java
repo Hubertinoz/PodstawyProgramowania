@@ -10,8 +10,7 @@ public class Zgaduj {
         int x = rnd.nextInt(10)+1;
         Scanner scn = new Scanner(System.in);
 
-
-        for (int i = 1; i < 5 ; i++) {
+        for (int i = 1; i < 6 ; i++) {
             System.out.print("Podaj liczbe: ");
             int y = scn.nextInt();
             if(y==x) {

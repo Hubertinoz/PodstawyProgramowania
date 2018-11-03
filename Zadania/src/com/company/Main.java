@@ -15,10 +15,11 @@ public class Main {
         System.out.println("7.Notes");
         System.out.println("8.Prime Number");
         System.out.println("9.Three Numbers");
-        System.out.println("10.Zgaduj");
+        System.out.println("10.Find the number");
         System.out.println("11.Change Int");
         System.out.println("12.Fibonacci");
-        System.out.println("13.x");
+        System.out.println("13.Silnia");
+        System.out.println("14.Zdanie od tylu");
 
 
         System.out.print("Your choice: ");
@@ -63,7 +64,10 @@ public class Main {
                 Fibonacci.main();
                 break;
             case 13:
-                Zgaduj.main();
+               Silnia.main();
+                break;
+            case 14:
+                Odwroc.main();
                 break;
             default:
                 System.out.println("Wrong number :/");
