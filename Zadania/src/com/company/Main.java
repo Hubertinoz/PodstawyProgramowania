@@ -20,6 +20,8 @@ public class Main {
         System.out.println("12.Fibonacci");
         System.out.println("13.Factorial");
         System.out.println("14.Reverse string");
+        System.out.println("15.NWD");
+        System.out.println("16.Pow");
 
         System.out.print("Your choice: ");
         Scanner key = new Scanner(System.in);
@@ -67,6 +69,12 @@ public class Main {
                 break;
             case 14:
                 ReverseString.main();
+                break;
+            case 15:
+                NWD.main();
+                break;
+            case 16:
+                Potegowanie.main();
                 break;
             default:
                 System.out.println("Wrong number :/");
