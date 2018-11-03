@@ -18,7 +18,7 @@ public class Main {
         System.out.println("10.Find the number");
         System.out.println("11.Change Int");
         System.out.println("12.Fibonacci");
-        System.out.println("13.Silnia");
+        System.out.println("13.Factorial");
         System.out.println("14.Reverse string");
 
         System.out.print("Your choice: ");
@@ -63,7 +63,7 @@ public class Main {
                 Fibonacci.main();
                 break;
             case 13:
-               Silnia.main();
+                Factorial.main();
                 break;
             case 14:
                 ReverseString.main();

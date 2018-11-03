@@ -2,19 +2,19 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Silnia {
+public class Factorial {
 
     public static void main() {
 
-        System.out.print("Oblicz silnie z liczby: ");
+        System.out.print("Calculate factorial from the number: ");
         Scanner key = new Scanner(System.in);
         int nmb = key.nextInt();
 
-        int iloczyn = 1;
+        int ratio = 1;
 
         for (int i=1; i<=nmb; i++) {
-            iloczyn *= i;
+            ratio *= i;
         }
-        System.out.println(iloczyn);
+        System.out.println(ratio);
     }
 }
