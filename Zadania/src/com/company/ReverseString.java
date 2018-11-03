@@ -1,6 +1,6 @@
 package com.company;
 
-public class Odwroc {
+public class ReverseString {
     public static void main() {
         String ala = "Ala ma kota";
         char zmiana;

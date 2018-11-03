@@ -19,8 +19,7 @@ public class Main {
         System.out.println("11.Change Int");
         System.out.println("12.Fibonacci");
         System.out.println("13.Silnia");
-        System.out.println("14.Zdanie od tylu");
-
+        System.out.println("14.Reverse string");
 
         System.out.print("Your choice: ");
         Scanner key = new Scanner(System.in);
@@ -55,7 +54,7 @@ public class Main {
                 ThreeNumbers.main();
                 break;
             case 10:
-                Zgaduj.main();
+                FindNumber.main();
                 break;
             case 11:
                 ChangeInt.main();
@@ -67,7 +66,7 @@ public class Main {
                Silnia.main();
                 break;
             case 14:
-                Odwroc.main();
+                ReverseString.main();
                 break;
             default:
                 System.out.println("Wrong number :/");

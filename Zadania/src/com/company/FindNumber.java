@@ -3,7 +3,7 @@ package com.company;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Zgaduj {
+public class FindNumber {
     public static void main() {
 
         Random rnd = new Random();
