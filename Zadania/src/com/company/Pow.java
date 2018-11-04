@@ -2,13 +2,13 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Potegowanie {
+public class Pow {
     public static void main() {
         Scanner tekst = new Scanner(System.in);
 
-        System.out.print("Type number: ");
+        System.out.print("Type first number: ");
         Integer podstawa = tekst.nextInt();
-        System.out.print("Type number: ");
+        System.out.print("Type second number: ");
         Integer wykladnik = tekst.nextInt();
         int result = 1;
 
