@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class PrimeNumber {
+public class ErastotenesPrime {
 
     public static void main() {
         Scanner tekst = new Scanner(System.in);

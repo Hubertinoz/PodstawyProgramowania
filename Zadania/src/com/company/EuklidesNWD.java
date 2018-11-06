@@ -1,6 +1,6 @@
 package com.company;
 
-public class NWD {
+public class EuklidesNWD {
     public static void main() {
         int a = 5;
         int b = 6;

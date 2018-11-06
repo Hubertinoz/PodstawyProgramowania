@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.xml.crypto.dsig.keyinfo.KeyInfo;
 import java.util.Scanner;
 
 public class Main {
@@ -31,6 +32,8 @@ public class Main {
             System.out.println("17.Kalkulator");
             System.out.println("18.Sortowanie babelkowe");
             System.out.println("19.Najwieksza i najmniejsza liczba tablicy");
+            System.out.println("20.Konwerter binarne/dziesietne i dziesietne/binarne");
+            System.out.println("21.Algorytm Luhna Sprawdzajacy poprawnosc karty");
             System.out.print("Twoj wybor: ");
         }
         else if(lang == 1) {
@@ -54,6 +57,8 @@ public class Main {
             System.out.println("17.Calculator");
             System.out.println("18.Bubble sort");
             System.out.println("19.Largest & Smallest number of table");
+            System.out.println("20.Converter binary/decimal i decimal/binary");
+            System.out.println("21.Luhna Algorithm");
             System.out.print("Your choice: ");
         }
 
@@ -82,7 +87,7 @@ public class Main {
                 Notes.main();
                 break;
             case 8:
-                PrimeNumber.main();
+                ErastotenesPrime.main();
                 break;
             case 9:
                 ThreeNumbers.main();
@@ -103,7 +108,7 @@ public class Main {
                 ReverseString.main();
                 break;
             case 15:
-                NWD.main();
+                EuklidesNWD.main();
                 break;
             case 16:
                 Pow.main();
@@ -116,6 +121,13 @@ public class Main {
                 break;
             case 19:
                 TableFind.main();
+                break;
+            case 20:
+                Converter cnv = new Converter();
+                cnv.main();
+                break;
+            case 21:
+                Luhna.main();
                 break;
             default:
                 System.out.println("Wrong number :/");
