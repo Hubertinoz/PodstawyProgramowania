@@ -34,6 +34,7 @@ public class Main {
             System.out.println("19.Najwieksza i najmniejsza liczba tablicy");
             System.out.println("20.Konwerter binarne/dziesietne i dziesietne/binarne");
             System.out.println("21.Algorytm Luhna Sprawdzajacy poprawnosc karty");
+            System.out.println("22.Palindrom");
             System.out.print("Twoj wybor: ");
         }
         else if(lang == 1) {
@@ -59,6 +60,7 @@ public class Main {
             System.out.println("19.Largest & Smallest number of table");
             System.out.println("20.Converter binary/decimal i decimal/binary");
             System.out.println("21.Luhna Algorithm");
+            System.out.println("22.Palindrome");
             System.out.print("Your choice: ");
         }
 
@@ -128,6 +130,12 @@ public class Main {
                 break;
             case 21:
                 Luhna.main();
+                break;
+            case 22:
+                Palindrome.main();
+                break;
+            case 23:
+                MultiplicationTableTwo.main();
                 break;
             default:
                 System.out.println("Wrong number :/");
